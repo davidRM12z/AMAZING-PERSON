@@ -6,8 +6,9 @@ public class Persona
     private Vestimenta ropa;
 
     
-    public Persona(){
-        
+    public Persona(int edadPersona, int alturaPersona){
+        edad = edadPersona;
+        altura = alturaPersona;
     }
 
     
