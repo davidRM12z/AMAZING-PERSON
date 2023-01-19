@@ -29,4 +29,8 @@ public class Vestimenta
     public void setMarca(String marcaN){
         marca = marcaN;
     }
+    
+    public void imprimirDetalles() {
+        System.out.println(marca + " " + color);
+    }
 }
