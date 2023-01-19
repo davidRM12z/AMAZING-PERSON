@@ -35,4 +35,8 @@ public class Persona
     public void setRopa(Vestimenta ropaN) {
         ropa = ropaN;
     }
+    
+    public void imprimirDetalles() {
+        System.out.println("Tiene una edad de: "+ edad + ", una altura de: " + altura + ", lleva la ropa de la marca: " + ropa.getMarca() + "y el color de su ropa es: " + ropa.getColor());
+    }
 }
