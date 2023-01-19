@@ -1,0 +1,8 @@
+#Ignoramos package
+package.bluej
+#Ignoramos readme
+README.TXT
+#Ignoramos .class
+*.class
+#ihnoramos .ctxt
+*.ctxt
