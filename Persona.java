@@ -23,4 +23,16 @@ public class Persona
     public Vestimenta getRopa(){
         return ropa;
     }
+    
+    public void setEdad(int edadN) {
+        edad = edadN;
+    }
+    
+    public void setAltura(int alturaN) {
+        altura = alturaN;
+    }
+    
+    public void setRopa(Vestimenta ropaN) {
+        ropa = ropaN;
+    }
 }
