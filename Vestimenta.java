@@ -13,4 +13,20 @@ public class Vestimenta
         color = colorRopa;
         marca = marcaRopa;
     }
+    
+    public String getColor(){
+        return color;
+    }
+    
+    public String getMarca(){
+        return marca;
+    }
+    
+    public void setColor(String colorN){
+        color = colorN;
+    }
+    
+    public void setMarca(String marcaN){
+        marca = marcaN;
+    }
 }
